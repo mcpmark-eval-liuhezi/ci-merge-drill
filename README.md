@@ -12,3 +12,9 @@ squash-merged into the default branch after the CI workflow is confirmed to be r
 
 A minimal continuous integration workflow lives at `.github/workflows/ci.yml`. It triggers
 on every push and runs a single job that echoes a confirmation message.
+
+## Merge gate
+
+The merge gate was exercised: the `merge-gate-demo` branch carried this README note, was
+proposed via pull request into `main`, and was squash-merged after the CI workflow was
+confirmed registered on the repository.
