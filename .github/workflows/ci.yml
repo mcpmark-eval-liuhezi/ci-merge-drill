@@ -1,0 +1,11 @@
+name: CI
+
+on:
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Confirm CI is registered
+        run: echo "CI workflow registered and running for ci-merge-drill"
